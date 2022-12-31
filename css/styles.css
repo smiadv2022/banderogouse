@@ -1,9 +1,12 @@
 body, html{
 height: 100%;
+font-family: 'Montserrat', sans-serif;
 }
 .wrapper{
     width: 1170px;  
     margin: 0 auto; 
+    height: 100%;
+    position: relative;
 }
 .main-page{
     height:100%;
@@ -15,10 +18,64 @@ header{
     margin-top: 34px;
     margin-bottom: 58px;
     display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
     }
 .logo-text{
   margin-left: 18px;  
 }
+.main-page-row{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.banderogouse-container{
+    background: #FFFFFF;
+    padding: 60px 56px;
+    align-self: center;
+}
 .banderogouse-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1B1D1F;
+    }
+.banderogouse-greating{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-bottom: 16px;
+}  
+.banderogouse-start-text{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+.banderogouse-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.banderogouse-launch{
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.banderogouse-image{
+    align-self: flex-end;
+}
+.ukr-logo{
     
 }
