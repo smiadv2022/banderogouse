@@ -79,3 +79,57 @@ header{
 .ukr-logo{
     
 }
+.gouse-facts{
+  padding: 52px 0 72px 0;
+  display:flex;
+ flex-direction: column; 
+  align-items: center; 
+  }
+.gouse-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+    margin: 16px 0;
+    
+}
+.gouse-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    width:875px;
+
+}
+.gouse-facts-container{
+    width:1170px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.gouse-fact-item {
+    width:33.33%;
+
+}
+.gouse-fact-img {
+    width:374px;
+}
+.gouse-fact-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1B1D1F;
+    margin:12px 0 32px 0;
+    padding-left: 42px;
+}
+.gouse-fact-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    width: 280px;
+    padding-left: 42px;
+}
