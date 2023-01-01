@@ -7,6 +7,7 @@ font-family: 'Montserrat', sans-serif;
     margin: 0 auto; 
     height: 100%;
     position: relative;
+    /* height:720px; */
 }
 .main-page{
     height:100%;
@@ -132,4 +133,129 @@ header{
     color: #1B1D1F;
     width: 280px;
     padding-left: 42px;
+}
+.victory-footer{
+    display: flex;
+    justify-content: center;
+}
+.victory-bgc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px; 
+    padding: 72px 0px;
+    background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);  
+    margin-bottom: 72px;
+    }
+.victory-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+    margin: 16px 0px; 
+}
+.victory-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    width:875px;
+    text-align: center;
+}
+
+.modal-bgd{
+    position: fixed;
+     top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    background: rgb(27 29 31 /70%);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+.modal-form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.modal-form-conteiner{
+    position: relative;
+    background: #FFFFFF;
+    padding: 32px 92px 60px 92px;
+}
+.modal-form-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin: 32px 0px 12px 0px;
+}
+.modal-form-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+    
+}
+.modal-form-field{
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-bottom: 16px;
+}
+.modal-field-name{
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.modal-field-input{
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 4px 8px;
+}
+.modal-form-btn{
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    margin-top: 24px;
+}
+    .close-btn{
+        position: absolute;
+        font-weight: 600;
+        right: 24px;
+        top: 24px;
+        font-size: 20px;
+        color: #1B1D1F;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .modal-descr{
+    margin-bottom: 0;
+    }
+
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
 }
